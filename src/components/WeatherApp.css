@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family:sans-serif; */
+    font-family:Arial;
+}
+.app{
+    /* width: 17rem; */
+    height: 25rem;
+    background-color: rgb(38, 38, 103);
+    color: white;
+    border-radius: .7rem;
+    padding: 2rem;
+    margin-top:4rem ;
+    display: flex;
+}
+.search-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    cursor: pointer;
+}
+.search-input {
+    padding: 1rem;
+    font-weight: 600;
+    color: darkblue;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border:none;
+    outline: none;
+}
+.search-icon{
+    padding: .8rem;
+    background-color: white;
+    color: darkblue;
+    border-radius: 2rem;
+}
+
+
+.weather-icon-temperature-cityname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.weather-icon img{
+    width: 6rem;
+}
+.temperature-cityname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.temperature{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.cityname{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.humidity-and-wind-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 2.5rem;
+}
+.humidity-icon img {
+    width: 3rem;
+}
+.wind-icon img{
+    width: 3rem;
+    color: white;
+}
+
+.all-humidity-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+}
+.humidity-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.humidity-percentage{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.all-wind-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+}
+.wind-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.wind-percentage{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
